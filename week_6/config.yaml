@@ -1,0 +1,29 @@
+file_type: csv
+dataset_name: file
+file_name: rate-puf
+table_name: edsurv 
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+
+columns:
+  - BusinessYear
+  - StateCode
+  - IssuerId
+  - SourceName
+  - ImportDate
+  - RateEffectiveDate
+  - RateExpirationDate
+  - PlanId
+  - RatingAreaId
+  - Tobacco
+  - Age
+  - IndividualRate
+  - IndividualTobaccoRate
+  - Couple
+  - PrimarySubscriberAndOneDependent
+  - PrimarySubscriberAndTwoDependents
+  - PrimarySubscriberAndThreeOrMoreDependents
+  - CoupleAndOneDependent
+  - CoupleAndTwoDependents
+  - CoupleAndThreeOrMoreDependents
